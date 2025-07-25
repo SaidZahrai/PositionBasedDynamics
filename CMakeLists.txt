@@ -48,8 +48,8 @@ else()
 	ExternalProject_Add(
 	   Ext_Discregrid
 	   PREFIX "${CMAKE_BINARY_DIR}/extern/Discregrid"
-	   # GIT_REPOSITORY https://github.com/SaidZahrai/Discregrid.git
-	   GIT_TAG "4c27e1cc88be828c6ac5b8a05759ac7e01cf79e9"
+	   GIT_REPOSITORY https://github.com/SaidZahrai/Discregrid.git
+	   # GIT_TAG "4c27e1cc88be828c6ac5b8a05759ac7e01cf79e9"
     	   GIT_TAG "ff19be02652ae08eee8be37e238e98dc940af55f"
 	   INSTALL_DIR ${ExternalInstallDir}/Discregrid
 	   CMAKE_ARGS -DCMAKE_BUILD_TYPE:STRING=${EXT_CMAKE_BUILD_TYPE} -DCMAKE_INSTALL_PREFIX:PATH=${ExternalInstallDir}/Discregrid
