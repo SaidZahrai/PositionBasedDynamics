@@ -118,7 +118,7 @@ setup(
     description='PBD Project Python Bindings',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/InteractiveComputerGraphics/PositionBasedDynamics',
+    url='https://github.com/SaidZahrai/PositionBasedDynamics',
     license="MIT",
     keywords="simulation rigid-bodies rigid-body-dynamics position-based-dynamics deformable-solids",
     ext_modules=[CMakeExtension(name)],
